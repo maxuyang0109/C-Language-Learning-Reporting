@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int integer;
+ 
+    int sum;
+    printf("please input integer1:\n");
+    scanf_s("%d", &integer);
+    sum = integer;
+    printf("please input integer2:\n");
+    scanf_s("%d", &integer);
+    sum = sum + integer;
+    printf("please input integer3:\n");
+    scanf_s("%d", &integer);
+    sum = sum + integer;
+    printf("Sum is %d", sum);
+
+    return 0;
+
+
+    
+}
+
